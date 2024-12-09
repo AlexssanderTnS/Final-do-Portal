@@ -95,9 +95,12 @@ section.empreendimentos{
 }
 
 section.empreendimentos > h2{
-    border-bottom: 2px solid #225473;
+    border-bottom: 2px solid #182940;
     padding-bottom: 0.5em;
-    color: #225473;
+    color: #182940;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000;
 }
 
 section.franqueado{
@@ -110,7 +113,7 @@ section.franqueado{
 
 section.franqueado h2{
     font-weight: bolder;
-    color: #003cff;
+    color: #182940;
     text-decoration: underline;
     font-size: 25px;
     width: 100%;
@@ -184,7 +187,7 @@ section.ltda h2{
     align-items: center;
     justify-content: center;
     text-decoration: underline;
-    color: #003cff;
+    color: #182940;
 
 }
 
@@ -197,7 +200,7 @@ section.ltda{
 }
 
 .ltda img{
-    width: 55%;
+    width: 100%;
    
     border-radius: 5px;
     border: 3px solid  #225473;
@@ -216,6 +219,10 @@ section.pj h2{
     font-weight: bolder;
     width: 100%;
     text-align: left;
+    color: #182940;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section.pj{
@@ -243,6 +250,7 @@ section.mei h2{
     font-weight: bolder;
     width: 100%;
     text-align: left;
+    color: #182940;
 }
 .mei img{
     width: 40%;
@@ -341,5 +349,5 @@ details p{
 
 a{
     text-decoration: underline;
-    color: #000000;
+    color: red;
 }
