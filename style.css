@@ -9,6 +9,11 @@
     
 }
 
+
+h2{
+    font-size: 40px;
+}
+
 p{  
     margin-left: 10%; 
     margin-right: 10% ;
@@ -200,7 +205,7 @@ section.ltda{
 }
 
 .ltda img{
-    width: 100%;
+    width: 50%;
    
     border-radius: 5px;
     border: 3px solid  #225473;
