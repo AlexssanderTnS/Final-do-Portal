@@ -223,6 +223,7 @@ section.pj h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: underline;
 }
 
 section.pj{
@@ -251,6 +252,10 @@ section.mei h2{
     width: 100%;
     text-align: left;
     color: #182940;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
 }
 .mei img{
     width: 40%;
@@ -300,11 +305,20 @@ section.memp{
     gap: 20px;
 }
 
+section.box h2{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 2%;
+    color: #182940;
+}
+
+
 section.box{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
    
 }
 
