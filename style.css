@@ -9,22 +9,20 @@
     
 }
 
+header, section.franqueados{
+    position: absolute;
+}
 
 h2{
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 p{  
-    margin-left: 10%; 
-    margin-right: 10% ;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 1.5rem;
 }
 
+/* ------------------------------------------------------------------------- */
 
-/* ------Inicio do cabeçalho------  */
 body{
     background-color: #ffffff;
 }
@@ -34,10 +32,11 @@ header{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     background-color: #182940;
     position: fixed;
     border-bottom: 1px solid #182940;
+    z-index: 100;
 }
 
 div.tittle h1{
@@ -58,21 +57,21 @@ a.nav-link{
     color: #F2F2F2;
     font-weight: 700;
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a.nav-link:hover{
-    color: #225473;
+    color: #FFCC29;
     cursor: pointer;
 }
-    /* ------Final do cabeçalho------  */
+
+/* ------------------------------------------------------------------------- */
+
 
 img{
     width: 100%;
     height: 400px;
 }
-          /* Franquias card e texto */
-
 
 section.empreender {
     display: flex;
@@ -93,10 +92,14 @@ section.empreender h2 {
     text-decoration: underline;
 }
 
+/* ------------------------------------------------------------------------- */
+
+
 section.empreendimentos{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    gap: 200px;
 }
 
 section.empreendimentos > h2{
@@ -108,19 +111,23 @@ section.empreendimentos > h2{
     font-weight: 1000;
 }
 
+/* ------------------------------------------------------------------------- */
+
+
 section.franqueado{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 2%;
     gap: 24px;
-}
+    text-align: center;
+    z-index: 10;
+} 
 
 section.franqueado h2{
     font-weight: bolder;
     color: #182940;
-    text-decoration: underline;
-    font-size: 25px;
+    font-size: 40px;
     width: 100%;
     text-align: left;
     display: flex;
@@ -128,7 +135,32 @@ section.franqueado h2{
     justify-content: center;
 }
 
-div.div_cards{
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.div.carousel-inner h5, div.carousel-inner p{
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: 500;
+}
+
+
+/* div.carousel-inner p{
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: 500;
+} */
+
+
+
+
+
+
+
+
+/*  div.div_cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     grid-gap: 20px;
@@ -158,8 +190,9 @@ div.card:hover{
     padding: 2%;
     width: 200px;
     height: 200px;
-    gap: 15%;
-}
+    gap: 15%; 
+} */
+
 
 section.franquias h3{
     display: flex;
@@ -176,59 +209,82 @@ section.franquias h2{
 
 }
 
+/* ------------------------------------------------------------------------- */
 
 
-
-
-
-    
-        /* inicio das Franquias */
-
-section.ltda h2{
-    font-weight: bolder;
+section.ltda{
     width: 100%;
-    text-align: left;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-decoration: underline;
-    color: #182940;
-
+    justify-content: space-evenly;
+    padding: 10px;
 }
 
-section.ltda{ 
+section.ltda div.ltda-info{
+    width: 550px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+section.ltda div.ltda-info p{
+    color: #3d3d3d;
+}
+
+section.ltda div.ltda-info a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+section.ltda div.ltda-info button.venha-conhecer{
+    padding: 15px 20px;
+    background-color: #3d93c8;
+    box-shadow: 3px 2px 2px  black;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+section.ltda div.ltda-info button.venha-conhecer:hover{
+    background-color: #225473;
+}
+
+section.ltda div.call-to-action{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2%;
-    gap: 20px;
-}
-
-.ltda img{
-    width: 50%;
-   
-    border-radius: 5px;
-    border: 3px solid  #225473;
-    
-}
-
-section.ltda p{
-    padding: 2%;
-    display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
-/* -------------------------------------------------------------------------------- */
+section.ltda h2{
+    font-weight: 800;
+    color: #2fcf2dc2;
+}
+
+section.ltda img{
+    width: 50%;
+    border-radius: 3px; 
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.568);
+}
+
+/* ------------------------------------------------------------------------- */
 
 section.pj h2{
     font-weight: bolder;
     width: 100%;
     text-align: left;
-    color: #182940;
+    color: #2fcf2dc2;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: underline;
 }
 
 section.pj{
@@ -250,13 +306,12 @@ section.pj p{
     justify-content: center;
 }
 
-/* ---------------------------------------------------------------------------------------------------------- */
-
+/* ------------------------------------------------------------------------- */
 section.mei h2{
     font-weight: bolder;
     width: 100%;
     text-align: left;
-    color: #182940;
+    color: #2fcf2dc2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,7 +350,7 @@ section.memp h1{
     font-weight: bolder;
     width: 100%;
     
-    color:#182940;
+    color: #2fcf2dc2;
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -309,6 +364,9 @@ section.memp{
     padding: 2%;
     gap: 20px;
 }
+
+/* ------------------------------------------------------------------------- */
+
 
 section.box h2{
     font-size: 30px;
@@ -366,7 +424,6 @@ details p{
    
 }
 
-a{
-    text-decoration: underline;
-    color: red;
-}
+/* ------------------------------------------------------------------------- */
+
+
