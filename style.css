@@ -41,7 +41,8 @@ header{
 
 div.tittle h1{
     color: #F2F2F2;
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: bolder;
     /* text-shadow: 2px 2px 4px #2e6099a8; */
 }
 
@@ -390,7 +391,7 @@ details li{
 
 summary::marker{
     cursor: pointer;
-    color: #003cff;
+    color: #ffffff;
 }
 
 .FAQ h3{
