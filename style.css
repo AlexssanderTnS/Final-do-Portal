@@ -106,12 +106,12 @@ section.empreender p{
 section.memp img{
     width: 40%;
     border-radius: 5px;
+    height: 30%;
 }
 
 section.memp h1{
     font-weight: bolder;
     width: 100%;
-    
     color: #2fcf2dc2;
     font-size: 40px;
     display: flex;
@@ -173,7 +173,7 @@ section.franqueado h2{
 
 .carousel-item img{
     width: 100%;
-    height: 500px;
+    height: 400px;
 }
 
 
@@ -349,10 +349,10 @@ section div.mei-info{
     justify-content: space-evenly;
 }
 
-/* ------------------------------------------------------------------------- */
+/*-------------------------------------------------------------------------*/
 
 
-/* ------------------------------------------------------------------------- */
+/*-------------------------------------------------------------------------*/
 
 
 section.box h2{
@@ -374,7 +374,7 @@ section.box{
 
 section.FAQ{
     background-color: #182940;
-    width: 60%;
+    width: 90%;
     padding: 1%;
     height: 4%;
     border :5px solid #182940;
@@ -397,6 +397,11 @@ details li{
     color: #ffffff;
 }
 
+summary{
+    color: #30cf2d;
+    display: list-item;
+    cursor: pointer;
+}
 
 summary::marker{
     cursor: pointer;
@@ -410,9 +415,8 @@ summary::marker{
 }
 
 details{
-    background-color: #0982f300;
     padding: 2%;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #2fcf2dc2;
     font-weight: 600;
    
     
