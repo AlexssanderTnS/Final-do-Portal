@@ -18,7 +18,7 @@ h2{
 }
 
 p{  
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -236,7 +236,6 @@ section.ltda div.ltda-info a{
 button.venha-conhecer{
     padding: 15px 20px;
     background-color: #3d93c8;
-    box-shadow: 3px 2px 2px  black;
     border: none;
     border-radius: 5px;
     font-size: 20px;
