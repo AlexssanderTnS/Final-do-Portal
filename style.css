@@ -92,6 +92,12 @@ section.empreender h2 {
     font-size: 30px;
     font-weight: 1000;
     text-decoration: underline;
+
+}
+
+
+section.empreender p{
+    text-align: justify;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -119,6 +125,10 @@ section.memp{
     align-items: center;
     padding: 2%;
     gap: 20px;
+}
+
+div.memp-info{
+    text-align: justify;
 }
 
 section.empreendimentos{
