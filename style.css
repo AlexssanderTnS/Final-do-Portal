@@ -70,8 +70,9 @@ a.nav-link:hover{
 
 img{
     width: 100%;
-    height: 400px;
+    height: 70vh;
 }
+
 
 section.empreender {
     display: flex;
@@ -94,6 +95,30 @@ section.empreender h2 {
 
 /* ------------------------------------------------------------------------- */
 
+
+section.memp img{
+    width: 40%;
+    border-radius: 5px;
+}
+
+section.memp h1{
+    font-weight: bolder;
+    width: 100%;
+    
+    color: #2fcf2dc2;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.memp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    gap: 20px;
+}
 
 section.empreendimentos{
     display: flex;
@@ -126,7 +151,7 @@ section.franqueado{
 
 section.franqueado h2{
     font-weight: bolder;
-    color: #182940;
+    color: #2fcf2dc2;
     font-size: 40px;
     width: 100%;
     text-align: left;
@@ -160,42 +185,6 @@ div.carousel-inner p{
     color: rgba(0, 0, 0, 0.753);
     font-weight: 500;
 }
-
-
-
-  div.div_cards{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    grid-gap: 20px;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-}
-
-div.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    padding: 2%;
-    border: 1px solid #225473;
-    border-radius: 10px;
-    background-color: #f4f8fb;
-}
-
-div.card:hover{
-    cursor: pointer;
-}
-
-.card img{
-    user-select: none;    
-    padding: 2%;
-    width: 200px;
-    height: 200px;
-    gap: 15%; 
-} */
-
 
 section.franquias h3{
     display: flex;
@@ -321,62 +310,37 @@ section.pj img{
 
 
 /* ------------------------------------------------------------------------- */
-section.mei h2{
-    font-weight: bolder;
+
+section.mei{
     width: 100%;
-    text-align: left;
-    color: #2fcf2dc2;
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-decoration: underline;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+section.mei h2{
+    font-weight: 800;
+    color: #2fcf2dc2;
 }
 .mei img{
     width: 50%;
     border-radius: 3px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.568);
 }
 
-section.mei{
+section div.mei-info{
+    width: 550px;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 2%;
-    gap: 20px;
-}
-
-section.mei p{
-    padding: 2%;
-    display: flex;
-    justify-content: center;
+    align-items: start;
+    text-align: justify;
+    justify-content: space-evenly;
 }
 
 /* ------------------------------------------------------------------------- */
 
-
-section.memp img{
-    width: 40%;
-    border-radius: 5px;
-    border: 3px solid  #225473;
-}
-
-section.memp h1{
-    font-weight: bolder;
-    width: 100%;
-    
-    color: #2fcf2dc2;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-section.memp{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2%;
-    gap: 20px;
-}
 
 /* ------------------------------------------------------------------------- */
 
@@ -385,7 +349,7 @@ section.box h2{
     font-size: 30px;
     font-weight: bolder;
     padding: 2%;
-    color: #ffffff;
+    color: #2fcf2dc2;
 }
 
 
@@ -403,7 +367,8 @@ section.FAQ{
     width: 60%;
     padding: 1%;
     height: 4%;
-    border :5px solid #225473;
+    border :5px solid #182940;
+    border-radius: 10px;
 }
 
 section.FAQ h2{
@@ -452,8 +417,4 @@ details p{
 
 /* ------------------------------------------------------------------------- */
 
-footer{
-    box-sizing: 10px solid #182940;
-    color:#182490;
-}
 
