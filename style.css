@@ -51,6 +51,7 @@ ul.nav{
     display: flex;
     list-style: none;
     gap: 25px;
+    color: #F2F2F2;
 }
 
 a.nav-link{
@@ -428,6 +429,7 @@ details p{
     padding: 2% ;
    
 }
+
 
 /* ------------------------------------------------------------------------- */
 
