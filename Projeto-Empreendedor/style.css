@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    
+}
+
+header, section.franqueados{
+    position: absolute;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+p{  
+    font-size: 1.2rem;
+}
+
+/* ------------------------------------------------------------------------- */
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #182940;
+    position: fixed;
+    border-bottom: 1px solid #182940;
+    z-index: 100;
+}
+
+div.tittle h1{
+    color: #F2F2F2;
+    font-size: 30px;
+    font-weight: bolder;
+    /* text-shadow: 2px 2px 4px #2e6099a8; */
+}
+
+ul.nav{
+    padding: 1rem;
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    color: #F2F2F2;
+}
+
+a.nav-link{
+    text-decoration: none;
+    color: #F2F2F2;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+a.nav-link:hover{
+    color: #FFCC29;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------- */
+
+
+img{
+    width: 100%;
+    height: 70vh;
+}
+
+
+section.empreender {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    gap: 20px;
+}
+
+section.empreender h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.5em;
+    color: #182940;
+    font-size: 30px;
+    font-weight: 1000;
+    text-decoration: underline;
+
+}
+
+
+section.empreender p{
+    text-align: justify;
+}
+
+/* ------------------------------------------------------------------------- */
+
+
+section.memp img{
+    width: 40%;
+    border-radius: 5px;
+    height: 30%;
+}
+
+section.memp h1{
+    font-weight: bolder;
+    width: 100%;
+    color: #2fcf2dc2;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.memp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    gap: 20px;
+}
+
+div.memp-info{
+    text-align: justify;
+}
+
+section.empreendimentos{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 200px;
+}
+
+section.empreendimentos > h2{
+    border-bottom: 2px solid #182940;
+    padding-bottom: 0.5em;
+    color: #182940;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+/* ------------------------------------------------------------------------- */
+
+
+section.franqueado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    gap: 24px;
+    text-align: center;
+    z-index: 10;
+} 
+
+section.franqueado h2{
+    font-weight: bolder;
+    color: #2fcf2dc2;
+    font-size: 40px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+.div.carousel-inner h5, div.carousel-inner p{
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: 500;
+}
+
+.div.carousel-indicadors button{
+    color:#006cfa ;
+}
+
+section.franqueado a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+div.carousel-inner p{
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: 500;
+}
+
+section.franquias h3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5em;
+    color: #225473;
+    font-size: 25px;
+}
+
+section.franquias h2{
+    border-bottom: 2px solid #225473;
+    padding-bottom: 0.5em;
+    color: #225473;
+
+}
+
+/* ------------------------------------------------------------------------- */
+
+
+section.ltda{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+section.ltda div.ltda-info{
+    width: 550px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+section.ltda div.ltda-info p{
+    color: #3d3d3d;
+}
+
+section.ltda div.ltda-info a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+button.venha-conhecer{
+    padding: 15px 20px;
+    background-color: #3d93c8;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+button.venha-conhecer:hover{
+    background-color: #225473;
+}
+
+div.call-to-action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+section.ltda h2{
+    font-weight: 800;
+    color: #2fcf2dc2;
+}
+
+section.ltda img{
+    width: 50%;
+    border-radius: 3px; 
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.568);
+}
+
+/* ------------------------------------------------------------------------- */
+section.pj{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+section.pj div.pj-info{
+    width: 550px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+div.pj-info li{
+    font-size: 20px;    
+}
+
+div.call-to-action a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section.pj h2{
+    font-weight: 800;
+    color: #2fcf2dc2;
+}
+
+section.pj img{
+    width: 50%;
+    border-radius: 3px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.568);
+    
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+
+section.mei{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+section.mei h2{
+    font-weight: 800;
+    color: #2fcf2dc2;
+}
+.mei img{
+    width: 50%;
+    border-radius: 3px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.568);
+}
+
+section div.mei-info{
+    width: 550px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+/*-------------------------------------------------------------------------*/
+section.nano{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+section.nano div.nano-info{
+    width: 550px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+div.nano-info li{
+    font-size: 20px;    
+}
+
+div.call-to-action a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section.nano h2{
+    font-weight: 800;
+    color: #2fcf2dc2;
+}
+
+section.nano img{
+    width: 50%;
+    border-radius: 3px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.568);
+    
+}
+
+
+/*-------------------------------------------------------------------------*/
+
+
+section.box h2{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 2%;
+    color: #2fcf2dc2;
+}
+
+
+section.box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+section.FAQ{
+    background-color: #182940;
+    width: 90%;
+    padding: 1%;
+    height: 4%;
+    border :5px solid #182940;
+    border-radius: 10px;
+}
+
+section.FAQ h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F2F2F2;
+}
+
+
+summary{
+    color: #ffffff;
+}
+
+details li{
+    color: #ffffff;
+}
+
+summary{
+    color: #30cf2d;
+    display: list-item;
+    cursor: pointer;
+}
+
+summary::marker{
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.FAQ h3{
+    display: flex;
+    align-items: center;
+
+}
+
+details{
+    padding: 2%;
+    border-bottom: 2px solid #2fcf2dc2;
+    font-weight: 600;
+   
+    
+}
+
+
+details p{
+    color:#ffffff;
+    padding: 2% ;
+   
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+
